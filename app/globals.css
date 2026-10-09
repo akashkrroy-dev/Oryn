@@ -129,3 +129,7 @@
     @apply font-sans;
     }
 }
+
+html, body, a, button {
+  cursor: none;
+}

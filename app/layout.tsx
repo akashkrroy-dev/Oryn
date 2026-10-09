@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import type { Metadata } from "next";
 
+import Cursor from "@/components/custom/Cursor/Cursor";
+
 export const metadata: Metadata = {
   title: "Next.js Premium Startup Boilerplate",
   description: "Created using the ultimate interactive Next.js stack generator CLI.",
@@ -44,6 +46,7 @@ export default function RootLayout({
       >
       
         <AuthProvider>{children}</AuthProvider>
+        <Cursor />
       </body>
     </html>
   );
