@@ -15,7 +15,6 @@ export const authOptions: AuthOptions = {
   ],
   pages: {
     signIn: "/sign-in",
-    newUser: "/sign-up",
   },
   session: {
     strategy: "jwt",
